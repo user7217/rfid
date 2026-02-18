@@ -8,9 +8,9 @@ from machine import Pin
 from mfrc522 import MFRC522
 
 # --- CONFIGURATION ---
-WIFI_SSID = "Rishihood_Learner"
-WIFI_PASS = "sru@2021"
-SERVER_URL = "https://dvds-grand-readings-chronicles.trycloudflare.com/log_entry"
+WIFI_SSID = "wifi_ssid"
+WIFI_PASS = "wifi_pass"
+SERVER_URL = "cloudflare_tunnel url_here"
 LOCATION_NAME = "loc_1"
 OFFLINE_FILE = "offline_logs.json"
 
